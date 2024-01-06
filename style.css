@@ -1,0 +1,310 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main{
+    width: 100%;
+    margin: auto;
+    /* border: 1px solid red; */
+    height: 600px;
+    background: url(images/rm373batch2-08.jpg) center;
+    background-size: cover;
+    /* display: flex; */
+    
+}
+.inner{
+    width: 1000px;
+    margin: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    padding:20px 0px;
+}
+.menu ul{
+    display: flex;
+    padding-top: 20px;
+}
+.menu ul li{
+    padding: 10px 10px;
+    list-style: none;
+}
+.menu ul li a{
+    color: white;
+}
+.sec h1{
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+}
+.sec h3{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+.sec span{
+    color: blue;
+}
+
+.sec span1{
+    color: orange;
+}
+.main2{
+    width: 100%;
+    margin: auto;
+}
+.main2 h3{
+    text-align: center;
+    padding-top: 20px;
+}
+.items{
+    width: 30%;
+    height: 240px;
+    /* border: 1px solid red; */
+    margin-left: 30px;
+    background-color: white;
+    justify-content: center;
+    background-color: aqua; 
+}
+.items img{
+    padding: 10px 100px;
+    width: 100px;
+}
+.items p{
+    font-size: 15px;
+}
+.main3{
+    width: 100%;
+    margin: auto;
+    background-color: #f5f5f5;
+    height: 400px;
+    margin-top: 30px;
+}
+.main3 h3{
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 30px;
+}
+.bb{
+    width: 1170px;
+    height: 400px;
+    /* border: 1px solid red; */
+    margin: auto;
+}
+.row1{
+    width: 1170px;
+    height: 80px;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+}
+.row2{
+    width: 1170px;
+    height: 80px;
+    /* border: 1px solid red; */
+    /* margin: auto; */
+    margin-top: 20px;
+    display: flex;
+}
+.row3{
+    width: 1170px;
+    height: 80px;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    display: flex;
+}
+.cl1{
+    width: 300px;
+    height: 70px;
+    /* border: 1px solid red; */
+    margin-left: 50px;
+    background-color: aquamarine;
+    border-radius: 10px;
+
+}
+.cl1 img{
+    padding-top: 10px;
+    margin: 0px;
+    width: 50;
+}
+.cl1 b{
+    padding-bottom: 30px;
+}
+.cl2{
+    width: 300px;
+    height: 70px;
+    /* border: 1px solid red; */
+    margin-left: 10px;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+.cl3{
+    width: 150px;
+    height: 70px;
+    /* border: 1px solid red; */
+    margin-left: 10px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    margin-left: 400px;
+}
+.cl4{
+    width: 150px;
+    height: 70px;
+    /* border: 1px solid red; */
+    margin-left: 10px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    margin-right: 400px;
+}
+.cl3 img{
+    width: 50px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.cl4 img{
+    width: 50px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.icon{
+    flex-basis: 30%;
+}
+.icon img{
+    width: 300px;
+}
+.content{
+    flex-basis: 70%;
+}
+.main5{
+    width: 100%;
+    height: 500px;
+
+}
+.footer{
+    width: 100%;
+    height: 450px;
+    background: url(images/rm373batch2-08.jpg) ;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+}
+.f1{
+    width: 25%;
+    height: 350px;
+    /* border: 1px solid red; */
+    margin-left: 60px;
+}
+.f1 h2{
+    /* text-align: center; */
+    color: blue;
+    padding-top: 10px;
+    font-size: 30px;
+    padding-left: 60px;
+}
+.f1 ul li{
+    padding-top: 10px;
+    color: white;
+    font-size: 20px;
+    list-style: none;
+    padding-left: 60px;
+}
+.f2{
+    width: 25%;
+    height: 350px;
+    /* border: 1px solid red; */
+    margin-left: 60px;
+}
+.f2 h2{
+    color: blue;
+    padding-top: 10px;
+    font-size: 30px;
+    padding-left: 30px;
+}
+.f2 ul li{
+    padding-top: 10px;
+    color: white;
+    font-size: 20px;
+    list-style: none;
+    padding-left: 30px;
+}
+.f3{
+    width: 25%;
+    height: 350px;
+    /* border: 1px solid red; */
+    margin-left: 60px;
+}
+.f3 h2{
+    color: blue;
+    padding-top: 10px;
+    text-align: right;
+    font-size: 30px;
+    padding-left: 30px;
+}
+.f3 p{
+    text-align: right;
+    color: white;
+    line-height: 40px;
+}
+.end{
+    width: 1170px;
+    height: 90px;
+    /* border: 1px solid red; */
+    margin-left: 50px;
+}
+.hm{
+    width: 200px;
+    height: 80px;
+    /* border: 1px solid red; */
+    margin-left: 1000px;
+    padding-top: 10px;
+}
+ 
+     /* Company */
+
+.mains1{
+    width: 100%;
+    height: 180px;
+    background: url(images/rm373batch2-08.jpg) center;
+    margin: auto;
+    background-size: cover;
+    /* align-items: center; */
+}
+.mains2{
+    width: 100%;
+    height: 1000px;
+    border: 1px solid red;
+    margin-top: 50px;
+    display: flex;
+
+}
+.left1{
+    width: 30%;
+    height: 1000px;
+    border: 1px solid red;
+    margin-left: 50px;
+}
+.lft1{
+    width:90%;
+    height: 500px;
+    border: 1px solid red;
+    margin-left: 20px;
+}
+.lft2{
+    width:90%;
+    height: 500px;
+    border: 1px solid red;
+    margin-left: 20px;  
+}  
+.right1{
+    width: 60%;
+    height: 800px;
+    border: 1px solid blue;
+    margin-left: 20px;
+
+}
